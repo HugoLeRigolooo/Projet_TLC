@@ -1,0 +1,8 @@
+# Compiled class file
+*.class
+
+# PDF
+*.pdf
+
+# Package Files #
+*.jar
