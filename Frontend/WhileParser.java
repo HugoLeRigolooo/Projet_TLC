@@ -1,4 +1,4 @@
-// $ANTLR 3.3 Nov 30, 2010 12:45:30 C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g 2026-11-10 10:57:26
+// $ANTLR 3.3 Nov 30, 2010 12:45:30 C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g 2026-11-10 11:07:53
 
 import org.antlr.runtime.*;
 import java.util.Stack;
@@ -87,7 +87,7 @@ public class WhileParser extends Parser {
     }
 
     public String[] getTokenNames() { return WhileParser.tokenNames; }
-    public String getGrammarFileName() { return "C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g"; }
+    public String getGrammarFileName() { return "C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g"; }
 
 
     public static class program_return extends ParserRuleReturnScope {
@@ -96,7 +96,7 @@ public class WhileParser extends Parser {
     };
 
     // $ANTLR start "program"
-    // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:35:1: program : ( function )+ EOF -> ^( PROGRAM ( function )+ ) ;
+    // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:35:1: program : ( function )+ EOF -> ^( PROGRAM ( function )+ ) ;
     public final WhileParser.program_return program() throws RecognitionException {
         WhileParser.program_return retval = new WhileParser.program_return();
         retval.start = input.LT(1);
@@ -111,10 +111,10 @@ public class WhileParser extends Parser {
         RewriteRuleTokenStream stream_EOF=new RewriteRuleTokenStream(adaptor,"token EOF");
         RewriteRuleSubtreeStream stream_function=new RewriteRuleSubtreeStream(adaptor,"rule function");
         try {
-            // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:36:5: ( ( function )+ EOF -> ^( PROGRAM ( function )+ ) )
-            // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:36:9: ( function )+ EOF
+            // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:36:5: ( ( function )+ EOF -> ^( PROGRAM ( function )+ ) )
+            // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:36:9: ( function )+ EOF
             {
-            // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:36:9: ( function )+
+            // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:36:9: ( function )+
             int cnt1=0;
             loop1:
             do {
@@ -128,7 +128,7 @@ public class WhileParser extends Parser {
 
                 switch (alt1) {
             	case 1 :
-            	    // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:0:0: function
+            	    // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:0:0: function
             	    {
             	    pushFollow(FOLLOW_function_in_program206);
             	    function1=function();
@@ -169,7 +169,7 @@ public class WhileParser extends Parser {
             root_0 = (CommonTree)adaptor.nil();
             // 37:9: -> ^( PROGRAM ( function )+ )
             {
-                // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:37:12: ^( PROGRAM ( function )+ )
+                // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:37:12: ^( PROGRAM ( function )+ )
                 {
                 CommonTree root_1 = (CommonTree)adaptor.nil();
                 root_1 = (CommonTree)adaptor.becomeRoot((CommonTree)adaptor.create(PROGRAM, "PROGRAM"), root_1);
@@ -217,7 +217,7 @@ public class WhileParser extends Parser {
     };
 
     // $ANTLR start "function"
-    // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:40:1: function : 'function' SYMBOL ':' 'read' input '%' commands '%' 'write' output -> ^( FUNCTION SYMBOL input commands output ) ;
+    // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:40:1: function : 'function' SYMBOL ':' 'read' input '%' commands '%' 'write' output -> ^( FUNCTION SYMBOL input commands output ) ;
     public final WhileParser.function_return function() throws RecognitionException {
         WhileParser.function_return retval = new WhileParser.function_return();
         retval.start = input.LT(1);
@@ -255,8 +255,8 @@ public class WhileParser extends Parser {
         RewriteRuleSubtreeStream stream_input=new RewriteRuleSubtreeStream(adaptor,"rule input");
         RewriteRuleSubtreeStream stream_commands=new RewriteRuleSubtreeStream(adaptor,"rule commands");
         try {
-            // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:41:5: ( 'function' SYMBOL ':' 'read' input '%' commands '%' 'write' output -> ^( FUNCTION SYMBOL input commands output ) )
-            // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:41:9: 'function' SYMBOL ':' 'read' input '%' commands '%' 'write' output
+            // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:41:5: ( 'function' SYMBOL ':' 'read' input '%' commands '%' 'write' output -> ^( FUNCTION SYMBOL input commands output ) )
+            // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:41:9: 'function' SYMBOL ':' 'read' input '%' commands '%' 'write' output
             {
             string_literal3=(Token)match(input,27,FOLLOW_27_in_function245); if (state.failed) return retval; 
             if ( state.backtracking==0 ) stream_27.add(string_literal3);
@@ -300,7 +300,7 @@ public class WhileParser extends Parser {
 
 
             // AST REWRITE
-            // elements: SYMBOL, input, commands, output
+            // elements: SYMBOL, output, input, commands
             // token labels: 
             // rule labels: retval
             // token list labels: 
@@ -313,7 +313,7 @@ public class WhileParser extends Parser {
             root_0 = (CommonTree)adaptor.nil();
             // 42:9: -> ^( FUNCTION SYMBOL input commands output )
             {
-                // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:42:12: ^( FUNCTION SYMBOL input commands output )
+                // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:42:12: ^( FUNCTION SYMBOL input commands output )
                 {
                 CommonTree root_1 = (CommonTree)adaptor.nil();
                 root_1 = (CommonTree)adaptor.becomeRoot((CommonTree)adaptor.create(FUNCTION, "FUNCTION"), root_1);
@@ -357,7 +357,7 @@ public class WhileParser extends Parser {
     };
 
     // $ANTLR start "input"
-    // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:45:1: input : ( VARIABLE ( ',' VARIABLE )* )? -> ^( INPUTS ( VARIABLE )* ) ;
+    // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:45:1: input : ( VARIABLE ( ',' VARIABLE )* )? -> ^( INPUTS ( VARIABLE )* ) ;
     public final WhileParser.input_return input() throws RecognitionException {
         WhileParser.input_return retval = new WhileParser.input_return();
         retval.start = input.LT(1);
@@ -375,10 +375,10 @@ public class WhileParser extends Parser {
         RewriteRuleTokenStream stream_32=new RewriteRuleTokenStream(adaptor,"token 32");
 
         try {
-            // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:46:5: ( ( VARIABLE ( ',' VARIABLE )* )? -> ^( INPUTS ( VARIABLE )* ) )
-            // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:46:9: ( VARIABLE ( ',' VARIABLE )* )?
+            // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:46:5: ( ( VARIABLE ( ',' VARIABLE )* )? -> ^( INPUTS ( VARIABLE )* ) )
+            // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:46:9: ( VARIABLE ( ',' VARIABLE )* )?
             {
-            // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:46:9: ( VARIABLE ( ',' VARIABLE )* )?
+            // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:46:9: ( VARIABLE ( ',' VARIABLE )* )?
             int alt3=2;
             int LA3_0 = input.LA(1);
 
@@ -387,12 +387,12 @@ public class WhileParser extends Parser {
             }
             switch (alt3) {
                 case 1 :
-                    // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:46:10: VARIABLE ( ',' VARIABLE )*
+                    // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:46:10: VARIABLE ( ',' VARIABLE )*
                     {
                     VARIABLE13=(Token)match(input,VARIABLE,FOLLOW_VARIABLE_in_input305); if (state.failed) return retval; 
                     if ( state.backtracking==0 ) stream_VARIABLE.add(VARIABLE13);
 
-                    // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:46:19: ( ',' VARIABLE )*
+                    // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:46:19: ( ',' VARIABLE )*
                     loop2:
                     do {
                         int alt2=2;
@@ -405,7 +405,7 @@ public class WhileParser extends Parser {
 
                         switch (alt2) {
                     	case 1 :
-                    	    // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:46:20: ',' VARIABLE
+                    	    // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:46:20: ',' VARIABLE
                     	    {
                     	    char_literal14=(Token)match(input,32,FOLLOW_32_in_input308); if (state.failed) return retval; 
                     	    if ( state.backtracking==0 ) stream_32.add(char_literal14);
@@ -444,12 +444,12 @@ public class WhileParser extends Parser {
             root_0 = (CommonTree)adaptor.nil();
             // 47:9: -> ^( INPUTS ( VARIABLE )* )
             {
-                // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:47:12: ^( INPUTS ( VARIABLE )* )
+                // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:47:12: ^( INPUTS ( VARIABLE )* )
                 {
                 CommonTree root_1 = (CommonTree)adaptor.nil();
                 root_1 = (CommonTree)adaptor.becomeRoot((CommonTree)adaptor.create(INPUTS, "INPUTS"), root_1);
 
-                // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:47:21: ( VARIABLE )*
+                // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:47:21: ( VARIABLE )*
                 while ( stream_VARIABLE.hasNext() ) {
                     adaptor.addChild(root_1, stream_VARIABLE.nextNode());
 
@@ -490,7 +490,7 @@ public class WhileParser extends Parser {
     };
 
     // $ANTLR start "output"
-    // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:50:1: output : VARIABLE ( ',' VARIABLE )* -> ^( OUTPUTS ( VARIABLE )+ ) ;
+    // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:50:1: output : VARIABLE ( ',' VARIABLE )* -> ^( OUTPUTS ( VARIABLE )+ ) ;
     public final WhileParser.output_return output() throws RecognitionException {
         WhileParser.output_return retval = new WhileParser.output_return();
         retval.start = input.LT(1);
@@ -508,13 +508,13 @@ public class WhileParser extends Parser {
         RewriteRuleTokenStream stream_32=new RewriteRuleTokenStream(adaptor,"token 32");
 
         try {
-            // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:51:5: ( VARIABLE ( ',' VARIABLE )* -> ^( OUTPUTS ( VARIABLE )+ ) )
-            // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:51:9: VARIABLE ( ',' VARIABLE )*
+            // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:51:5: ( VARIABLE ( ',' VARIABLE )* -> ^( OUTPUTS ( VARIABLE )+ ) )
+            // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:51:9: VARIABLE ( ',' VARIABLE )*
             {
             VARIABLE16=(Token)match(input,VARIABLE,FOLLOW_VARIABLE_in_output350); if (state.failed) return retval; 
             if ( state.backtracking==0 ) stream_VARIABLE.add(VARIABLE16);
 
-            // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:51:18: ( ',' VARIABLE )*
+            // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:51:18: ( ',' VARIABLE )*
             loop4:
             do {
                 int alt4=2;
@@ -527,7 +527,7 @@ public class WhileParser extends Parser {
 
                 switch (alt4) {
             	case 1 :
-            	    // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:51:19: ',' VARIABLE
+            	    // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:51:19: ',' VARIABLE
             	    {
             	    char_literal17=(Token)match(input,32,FOLLOW_32_in_output353); if (state.failed) return retval; 
             	    if ( state.backtracking==0 ) stream_32.add(char_literal17);
@@ -560,7 +560,7 @@ public class WhileParser extends Parser {
             root_0 = (CommonTree)adaptor.nil();
             // 52:9: -> ^( OUTPUTS ( VARIABLE )+ )
             {
-                // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:52:12: ^( OUTPUTS ( VARIABLE )+ )
+                // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:52:12: ^( OUTPUTS ( VARIABLE )+ )
                 {
                 CommonTree root_1 = (CommonTree)adaptor.nil();
                 root_1 = (CommonTree)adaptor.becomeRoot((CommonTree)adaptor.create(OUTPUTS, "OUTPUTS"), root_1);
@@ -608,7 +608,7 @@ public class WhileParser extends Parser {
     };
 
     // $ANTLR start "commands"
-    // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:55:1: commands : command ( ';' command )* -> ^( COMMANDS ( command )+ ) ;
+    // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:55:1: commands : command ( ';' command )* -> ^( COMMANDS ( command )+ ) ;
     public final WhileParser.commands_return commands() throws RecognitionException {
         WhileParser.commands_return retval = new WhileParser.commands_return();
         retval.start = input.LT(1);
@@ -625,8 +625,8 @@ public class WhileParser extends Parser {
         RewriteRuleTokenStream stream_33=new RewriteRuleTokenStream(adaptor,"token 33");
         RewriteRuleSubtreeStream stream_command=new RewriteRuleSubtreeStream(adaptor,"rule command");
         try {
-            // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:56:5: ( command ( ';' command )* -> ^( COMMANDS ( command )+ ) )
-            // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:56:9: command ( ';' command )*
+            // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:56:5: ( command ( ';' command )* -> ^( COMMANDS ( command )+ ) )
+            // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:56:9: command ( ';' command )*
             {
             pushFollow(FOLLOW_command_in_commands393);
             command19=command();
@@ -634,7 +634,7 @@ public class WhileParser extends Parser {
             state._fsp--;
             if (state.failed) return retval;
             if ( state.backtracking==0 ) stream_command.add(command19.getTree());
-            // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:56:17: ( ';' command )*
+            // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:56:17: ( ';' command )*
             loop5:
             do {
                 int alt5=2;
@@ -647,7 +647,7 @@ public class WhileParser extends Parser {
 
                 switch (alt5) {
             	case 1 :
-            	    // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:56:18: ';' command
+            	    // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:56:18: ';' command
             	    {
             	    char_literal20=(Token)match(input,33,FOLLOW_33_in_commands396); if (state.failed) return retval; 
             	    if ( state.backtracking==0 ) stream_33.add(char_literal20);
@@ -683,7 +683,7 @@ public class WhileParser extends Parser {
             root_0 = (CommonTree)adaptor.nil();
             // 57:9: -> ^( COMMANDS ( command )+ )
             {
-                // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:57:12: ^( COMMANDS ( command )+ )
+                // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:57:12: ^( COMMANDS ( command )+ )
                 {
                 CommonTree root_1 = (CommonTree)adaptor.nil();
                 root_1 = (CommonTree)adaptor.becomeRoot((CommonTree)adaptor.create(COMMANDS, "COMMANDS"), root_1);
@@ -731,7 +731,7 @@ public class WhileParser extends Parser {
     };
 
     // $ANTLR start "command"
-    // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:60:1: command : ( 'nop' -> NOP | vars ':=' exprs -> ^( ASSIGN vars exprs ) | 'if' expression 'then' t= commands ( 'else' e= commands )? 'fi' -> ^( IF expression $t ( $e)? ) | 'while' expression 'do' commands 'od' -> ^( WHILE expression commands ) | 'for' expression 'do' commands 'od' -> ^( FOR expression commands ) | 'foreach' VARIABLE 'in' expression 'do' commands 'od' -> ^( FOREACH VARIABLE expression commands ) );
+    // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:60:1: command : ( 'nop' -> NOP | vars ':=' exprs -> ^( ASSIGN vars exprs ) | 'if' expression 'then' t= commands ( 'else' e= commands )? 'fi' -> ^( IF expression $t ( $e)? ) | 'while' expression 'do' commands 'od' -> ^( WHILE expression commands ) | 'for' expression 'do' commands 'od' -> ^( FOR expression commands ) | 'foreach' VARIABLE 'in' expression 'do' commands 'od' -> ^( FOREACH VARIABLE expression commands ) );
     public final WhileParser.command_return command() throws RecognitionException {
         WhileParser.command_return retval = new WhileParser.command_return();
         retval.start = input.LT(1);
@@ -813,7 +813,7 @@ public class WhileParser extends Parser {
         RewriteRuleSubtreeStream stream_vars=new RewriteRuleSubtreeStream(adaptor,"rule vars");
         RewriteRuleSubtreeStream stream_commands=new RewriteRuleSubtreeStream(adaptor,"rule commands");
         try {
-            // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:61:5: ( 'nop' -> NOP | vars ':=' exprs -> ^( ASSIGN vars exprs ) | 'if' expression 'then' t= commands ( 'else' e= commands )? 'fi' -> ^( IF expression $t ( $e)? ) | 'while' expression 'do' commands 'od' -> ^( WHILE expression commands ) | 'for' expression 'do' commands 'od' -> ^( FOR expression commands ) | 'foreach' VARIABLE 'in' expression 'do' commands 'od' -> ^( FOREACH VARIABLE expression commands ) )
+            // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:61:5: ( 'nop' -> NOP | vars ':=' exprs -> ^( ASSIGN vars exprs ) | 'if' expression 'then' t= commands ( 'else' e= commands )? 'fi' -> ^( IF expression $t ( $e)? ) | 'while' expression 'do' commands 'od' -> ^( WHILE expression commands ) | 'for' expression 'do' commands 'od' -> ^( FOR expression commands ) | 'foreach' VARIABLE 'in' expression 'do' commands 'od' -> ^( FOREACH VARIABLE expression commands ) )
             int alt7=6;
             switch ( input.LA(1) ) {
             case 34:
@@ -856,7 +856,7 @@ public class WhileParser extends Parser {
 
             switch (alt7) {
                 case 1 :
-                    // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:61:9: 'nop'
+                    // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:61:9: 'nop'
                     {
                     string_literal22=(Token)match(input,34,FOLLOW_34_in_command436); if (state.failed) return retval; 
                     if ( state.backtracking==0 ) stream_34.add(string_literal22);
@@ -885,7 +885,7 @@ public class WhileParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:63:9: vars ':=' exprs
+                    // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:63:9: vars ':=' exprs
                     {
                     pushFollow(FOLLOW_vars_in_command458);
                     vars23=vars();
@@ -905,7 +905,7 @@ public class WhileParser extends Parser {
 
 
                     // AST REWRITE
-                    // elements: exprs, vars
+                    // elements: vars, exprs
                     // token labels: 
                     // rule labels: retval
                     // token list labels: 
@@ -918,7 +918,7 @@ public class WhileParser extends Parser {
                     root_0 = (CommonTree)adaptor.nil();
                     // 64:9: -> ^( ASSIGN vars exprs )
                     {
-                        // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:64:12: ^( ASSIGN vars exprs )
+                        // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:64:12: ^( ASSIGN vars exprs )
                         {
                         CommonTree root_1 = (CommonTree)adaptor.nil();
                         root_1 = (CommonTree)adaptor.becomeRoot((CommonTree)adaptor.create(ASSIGN, "ASSIGN"), root_1);
@@ -935,7 +935,7 @@ public class WhileParser extends Parser {
                     }
                     break;
                 case 3 :
-                    // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:65:9: 'if' expression 'then' t= commands ( 'else' e= commands )? 'fi'
+                    // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:65:9: 'if' expression 'then' t= commands ( 'else' e= commands )? 'fi'
                     {
                     string_literal26=(Token)match(input,36,FOLLOW_36_in_command490); if (state.failed) return retval; 
                     if ( state.backtracking==0 ) stream_36.add(string_literal26);
@@ -955,7 +955,7 @@ public class WhileParser extends Parser {
                     state._fsp--;
                     if (state.failed) return retval;
                     if ( state.backtracking==0 ) stream_commands.add(t.getTree());
-                    // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:65:43: ( 'else' e= commands )?
+                    // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:65:43: ( 'else' e= commands )?
                     int alt6=2;
                     int LA6_0 = input.LA(1);
 
@@ -964,7 +964,7 @@ public class WhileParser extends Parser {
                     }
                     switch (alt6) {
                         case 1 :
-                            // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:65:44: 'else' e= commands
+                            // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:65:44: 'else' e= commands
                             {
                             string_literal29=(Token)match(input,38,FOLLOW_38_in_command501); if (state.failed) return retval; 
                             if ( state.backtracking==0 ) stream_38.add(string_literal29);
@@ -987,7 +987,7 @@ public class WhileParser extends Parser {
 
 
                     // AST REWRITE
-                    // elements: e, t, expression
+                    // elements: e, expression, t
                     // token labels: 
                     // rule labels: t, e, retval
                     // token list labels: 
@@ -1002,14 +1002,14 @@ public class WhileParser extends Parser {
                     root_0 = (CommonTree)adaptor.nil();
                     // 66:9: -> ^( IF expression $t ( $e)? )
                     {
-                        // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:66:12: ^( IF expression $t ( $e)? )
+                        // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:66:12: ^( IF expression $t ( $e)? )
                         {
                         CommonTree root_1 = (CommonTree)adaptor.nil();
                         root_1 = (CommonTree)adaptor.becomeRoot((CommonTree)adaptor.create(IF, "IF"), root_1);
 
                         adaptor.addChild(root_1, stream_expression.nextTree());
                         adaptor.addChild(root_1, stream_t.nextTree());
-                        // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:66:31: ( $e)?
+                        // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:66:31: ( $e)?
                         if ( stream_e.hasNext() ) {
                             adaptor.addChild(root_1, stream_e.nextTree());
 
@@ -1025,7 +1025,7 @@ public class WhileParser extends Parser {
                     }
                     break;
                 case 4 :
-                    // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:67:9: 'while' expression 'do' commands 'od'
+                    // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:67:9: 'while' expression 'do' commands 'od'
                     {
                     string_literal31=(Token)match(input,40,FOLLOW_40_in_command542); if (state.failed) return retval; 
                     if ( state.backtracking==0 ) stream_40.add(string_literal31);
@@ -1051,7 +1051,7 @@ public class WhileParser extends Parser {
 
 
                     // AST REWRITE
-                    // elements: commands, expression
+                    // elements: expression, commands
                     // token labels: 
                     // rule labels: retval
                     // token list labels: 
@@ -1064,7 +1064,7 @@ public class WhileParser extends Parser {
                     root_0 = (CommonTree)adaptor.nil();
                     // 68:9: -> ^( WHILE expression commands )
                     {
-                        // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:68:12: ^( WHILE expression commands )
+                        // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:68:12: ^( WHILE expression commands )
                         {
                         CommonTree root_1 = (CommonTree)adaptor.nil();
                         root_1 = (CommonTree)adaptor.becomeRoot((CommonTree)adaptor.create(WHILE, "WHILE"), root_1);
@@ -1081,7 +1081,7 @@ public class WhileParser extends Parser {
                     }
                     break;
                 case 5 :
-                    // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:69:9: 'for' expression 'do' commands 'od'
+                    // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:69:9: 'for' expression 'do' commands 'od'
                     {
                     string_literal36=(Token)match(input,43,FOLLOW_43_in_command578); if (state.failed) return retval; 
                     if ( state.backtracking==0 ) stream_43.add(string_literal36);
@@ -1120,7 +1120,7 @@ public class WhileParser extends Parser {
                     root_0 = (CommonTree)adaptor.nil();
                     // 70:9: -> ^( FOR expression commands )
                     {
-                        // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:70:12: ^( FOR expression commands )
+                        // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:70:12: ^( FOR expression commands )
                         {
                         CommonTree root_1 = (CommonTree)adaptor.nil();
                         root_1 = (CommonTree)adaptor.becomeRoot((CommonTree)adaptor.create(FOR, "FOR"), root_1);
@@ -1137,7 +1137,7 @@ public class WhileParser extends Parser {
                     }
                     break;
                 case 6 :
-                    // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:71:9: 'foreach' VARIABLE 'in' expression 'do' commands 'od'
+                    // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:71:9: 'foreach' VARIABLE 'in' expression 'do' commands 'od'
                     {
                     string_literal41=(Token)match(input,44,FOLLOW_44_in_command614); if (state.failed) return retval; 
                     if ( state.backtracking==0 ) stream_44.add(string_literal41);
@@ -1169,7 +1169,7 @@ public class WhileParser extends Parser {
 
 
                     // AST REWRITE
-                    // elements: expression, commands, VARIABLE
+                    // elements: commands, VARIABLE, expression
                     // token labels: 
                     // rule labels: retval
                     // token list labels: 
@@ -1182,7 +1182,7 @@ public class WhileParser extends Parser {
                     root_0 = (CommonTree)adaptor.nil();
                     // 72:9: -> ^( FOREACH VARIABLE expression commands )
                     {
-                        // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:72:12: ^( FOREACH VARIABLE expression commands )
+                        // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:72:12: ^( FOREACH VARIABLE expression commands )
                         {
                         CommonTree root_1 = (CommonTree)adaptor.nil();
                         root_1 = (CommonTree)adaptor.becomeRoot((CommonTree)adaptor.create(FOREACH, "FOREACH"), root_1);
@@ -1227,7 +1227,7 @@ public class WhileParser extends Parser {
     };
 
     // $ANTLR start "vars"
-    // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:75:1: vars : VARIABLE ( ',' VARIABLE )* -> ^( VARS ( VARIABLE )+ ) ;
+    // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:75:1: vars : VARIABLE ( ',' VARIABLE )* -> ^( VARS ( VARIABLE )+ ) ;
     public final WhileParser.vars_return vars() throws RecognitionException {
         WhileParser.vars_return retval = new WhileParser.vars_return();
         retval.start = input.LT(1);
@@ -1245,13 +1245,13 @@ public class WhileParser extends Parser {
         RewriteRuleTokenStream stream_32=new RewriteRuleTokenStream(adaptor,"token 32");
 
         try {
-            // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:76:5: ( VARIABLE ( ',' VARIABLE )* -> ^( VARS ( VARIABLE )+ ) )
-            // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:76:9: VARIABLE ( ',' VARIABLE )*
+            // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:76:5: ( VARIABLE ( ',' VARIABLE )* -> ^( VARS ( VARIABLE )+ ) )
+            // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:76:9: VARIABLE ( ',' VARIABLE )*
             {
             VARIABLE48=(Token)match(input,VARIABLE,FOLLOW_VARIABLE_in_vars665); if (state.failed) return retval; 
             if ( state.backtracking==0 ) stream_VARIABLE.add(VARIABLE48);
 
-            // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:76:18: ( ',' VARIABLE )*
+            // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:76:18: ( ',' VARIABLE )*
             loop8:
             do {
                 int alt8=2;
@@ -1264,7 +1264,7 @@ public class WhileParser extends Parser {
 
                 switch (alt8) {
             	case 1 :
-            	    // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:76:19: ',' VARIABLE
+            	    // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:76:19: ',' VARIABLE
             	    {
             	    char_literal49=(Token)match(input,32,FOLLOW_32_in_vars668); if (state.failed) return retval; 
             	    if ( state.backtracking==0 ) stream_32.add(char_literal49);
@@ -1297,7 +1297,7 @@ public class WhileParser extends Parser {
             root_0 = (CommonTree)adaptor.nil();
             // 77:9: -> ^( VARS ( VARIABLE )+ )
             {
-                // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:77:12: ^( VARS ( VARIABLE )+ )
+                // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:77:12: ^( VARS ( VARIABLE )+ )
                 {
                 CommonTree root_1 = (CommonTree)adaptor.nil();
                 root_1 = (CommonTree)adaptor.becomeRoot((CommonTree)adaptor.create(VARS, "VARS"), root_1);
@@ -1345,7 +1345,7 @@ public class WhileParser extends Parser {
     };
 
     // $ANTLR start "exprs"
-    // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:80:1: exprs : expression ( ',' expression )* -> ^( EXPRS ( expression )+ ) ;
+    // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:80:1: exprs : expression ( ',' expression )* -> ^( EXPRS ( expression )+ ) ;
     public final WhileParser.exprs_return exprs() throws RecognitionException {
         WhileParser.exprs_return retval = new WhileParser.exprs_return();
         retval.start = input.LT(1);
@@ -1362,8 +1362,8 @@ public class WhileParser extends Parser {
         RewriteRuleTokenStream stream_32=new RewriteRuleTokenStream(adaptor,"token 32");
         RewriteRuleSubtreeStream stream_expression=new RewriteRuleSubtreeStream(adaptor,"rule expression");
         try {
-            // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:81:5: ( expression ( ',' expression )* -> ^( EXPRS ( expression )+ ) )
-            // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:81:9: expression ( ',' expression )*
+            // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:81:5: ( expression ( ',' expression )* -> ^( EXPRS ( expression )+ ) )
+            // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:81:9: expression ( ',' expression )*
             {
             pushFollow(FOLLOW_expression_in_exprs708);
             expression51=expression();
@@ -1371,7 +1371,7 @@ public class WhileParser extends Parser {
             state._fsp--;
             if (state.failed) return retval;
             if ( state.backtracking==0 ) stream_expression.add(expression51.getTree());
-            // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:81:20: ( ',' expression )*
+            // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:81:20: ( ',' expression )*
             loop9:
             do {
                 int alt9=2;
@@ -1384,7 +1384,7 @@ public class WhileParser extends Parser {
 
                 switch (alt9) {
             	case 1 :
-            	    // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:81:21: ',' expression
+            	    // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:81:21: ',' expression
             	    {
             	    char_literal52=(Token)match(input,32,FOLLOW_32_in_exprs711); if (state.failed) return retval; 
             	    if ( state.backtracking==0 ) stream_32.add(char_literal52);
@@ -1420,7 +1420,7 @@ public class WhileParser extends Parser {
             root_0 = (CommonTree)adaptor.nil();
             // 82:9: -> ^( EXPRS ( expression )+ )
             {
-                // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:82:12: ^( EXPRS ( expression )+ )
+                // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:82:12: ^( EXPRS ( expression )+ )
                 {
                 CommonTree root_1 = (CommonTree)adaptor.nil();
                 root_1 = (CommonTree)adaptor.becomeRoot((CommonTree)adaptor.create(EXPRS, "EXPRS"), root_1);
@@ -1468,7 +1468,7 @@ public class WhileParser extends Parser {
     };
 
     // $ANTLR start "expression"
-    // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:85:1: expression : eb1= exprBase ( '=?' eb2= exprBase -> ^( EQUAL $eb1 $eb2) | -> $eb1) ;
+    // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:85:1: expression : eb1= exprBase ( '=?' eb2= exprBase -> ^( EQUAL $eb1 $eb2) | -> $eb1) ;
     public final WhileParser.expression_return expression() throws RecognitionException {
         WhileParser.expression_return retval = new WhileParser.expression_return();
         retval.start = input.LT(1);
@@ -1485,8 +1485,8 @@ public class WhileParser extends Parser {
         RewriteRuleTokenStream stream_46=new RewriteRuleTokenStream(adaptor,"token 46");
         RewriteRuleSubtreeStream stream_exprBase=new RewriteRuleSubtreeStream(adaptor,"rule exprBase");
         try {
-            // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:86:5: (eb1= exprBase ( '=?' eb2= exprBase -> ^( EQUAL $eb1 $eb2) | -> $eb1) )
-            // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:86:9: eb1= exprBase ( '=?' eb2= exprBase -> ^( EQUAL $eb1 $eb2) | -> $eb1)
+            // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:86:5: (eb1= exprBase ( '=?' eb2= exprBase -> ^( EQUAL $eb1 $eb2) | -> $eb1) )
+            // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:86:9: eb1= exprBase ( '=?' eb2= exprBase -> ^( EQUAL $eb1 $eb2) | -> $eb1)
             {
             pushFollow(FOLLOW_exprBase_in_expression753);
             eb1=exprBase();
@@ -1494,7 +1494,7 @@ public class WhileParser extends Parser {
             state._fsp--;
             if (state.failed) return retval;
             if ( state.backtracking==0 ) stream_exprBase.add(eb1.getTree());
-            // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:86:22: ( '=?' eb2= exprBase -> ^( EQUAL $eb1 $eb2) | -> $eb1)
+            // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:86:22: ( '=?' eb2= exprBase -> ^( EQUAL $eb1 $eb2) | -> $eb1)
             int alt10=2;
             int LA10_0 = input.LA(1);
 
@@ -1513,7 +1513,7 @@ public class WhileParser extends Parser {
             }
             switch (alt10) {
                 case 1 :
-                    // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:86:24: '=?' eb2= exprBase
+                    // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:86:24: '=?' eb2= exprBase
                     {
                     string_literal54=(Token)match(input,46,FOLLOW_46_in_expression757); if (state.failed) return retval; 
                     if ( state.backtracking==0 ) stream_46.add(string_literal54);
@@ -1542,7 +1542,7 @@ public class WhileParser extends Parser {
                     root_0 = (CommonTree)adaptor.nil();
                     // 86:42: -> ^( EQUAL $eb1 $eb2)
                     {
-                        // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:86:45: ^( EQUAL $eb1 $eb2)
+                        // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:86:45: ^( EQUAL $eb1 $eb2)
                         {
                         CommonTree root_1 = (CommonTree)adaptor.nil();
                         root_1 = (CommonTree)adaptor.becomeRoot((CommonTree)adaptor.create(EQUAL, "EQUAL"), root_1);
@@ -1559,7 +1559,7 @@ public class WhileParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:87:24: 
+                    // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:87:24: 
                     {
 
                     // AST REWRITE
@@ -1616,7 +1616,7 @@ public class WhileParser extends Parser {
     };
 
     // $ANTLR start "exprBase"
-    // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:91:1: exprBase : ( 'nil' -> NIL | VARIABLE | SYMBOL | '(' 'cons' ( exprBase )* ')' -> ^( CONS ( exprBase )* ) | '(' 'list' ( exprBase )* ')' -> ^( LIST ( exprBase )* ) | '(' 'hd' exprBase ')' -> ^( HD exprBase ) | '(' 'tl' exprBase ')' -> ^( TL exprBase ) | '(' SYMBOL ( exprBase )* ')' -> ^( CALL SYMBOL ( exprBase )* ) );
+    // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:91:1: exprBase : ( 'nil' -> NIL | VARIABLE | SYMBOL | '(' 'cons' ( exprBase )* ')' -> ^( CONS ( exprBase )* ) | '(' 'list' ( exprBase )* ')' -> ^( LIST ( exprBase )* ) | '(' 'hd' exprBase ')' -> ^( HD exprBase ) | '(' 'tl' exprBase ')' -> ^( TL exprBase ) | '(' SYMBOL ( exprBase )* ')' -> ^( CALL SYMBOL ( exprBase )* ) );
     public final WhileParser.exprBase_return exprBase() throws RecognitionException {
         WhileParser.exprBase_return retval = new WhileParser.exprBase_return();
         retval.start = input.LT(1);
@@ -1680,12 +1680,12 @@ public class WhileParser extends Parser {
         RewriteRuleTokenStream stream_53=new RewriteRuleTokenStream(adaptor,"token 53");
         RewriteRuleSubtreeStream stream_exprBase=new RewriteRuleSubtreeStream(adaptor,"rule exprBase");
         try {
-            // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:92:5: ( 'nil' -> NIL | VARIABLE | SYMBOL | '(' 'cons' ( exprBase )* ')' -> ^( CONS ( exprBase )* ) | '(' 'list' ( exprBase )* ')' -> ^( LIST ( exprBase )* ) | '(' 'hd' exprBase ')' -> ^( HD exprBase ) | '(' 'tl' exprBase ')' -> ^( TL exprBase ) | '(' SYMBOL ( exprBase )* ')' -> ^( CALL SYMBOL ( exprBase )* ) )
+            // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:92:5: ( 'nil' -> NIL | VARIABLE | SYMBOL | '(' 'cons' ( exprBase )* ')' -> ^( CONS ( exprBase )* ) | '(' 'list' ( exprBase )* ')' -> ^( LIST ( exprBase )* ) | '(' 'hd' exprBase ')' -> ^( HD exprBase ) | '(' 'tl' exprBase ')' -> ^( TL exprBase ) | '(' SYMBOL ( exprBase )* ')' -> ^( CALL SYMBOL ( exprBase )* ) )
             int alt14=8;
             alt14 = dfa14.predict(input);
             switch (alt14) {
                 case 1 :
-                    // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:92:9: 'nil'
+                    // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:92:9: 'nil'
                     {
                     string_literal55=(Token)match(input,47,FOLLOW_47_in_exprBase843); if (state.failed) return retval; 
                     if ( state.backtracking==0 ) stream_47.add(string_literal55);
@@ -1714,7 +1714,7 @@ public class WhileParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:94:9: VARIABLE
+                    // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:94:9: VARIABLE
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -1727,7 +1727,7 @@ public class WhileParser extends Parser {
                     }
                     break;
                 case 3 :
-                    // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:95:9: SYMBOL
+                    // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:95:9: SYMBOL
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -1740,7 +1740,7 @@ public class WhileParser extends Parser {
                     }
                     break;
                 case 4 :
-                    // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:96:9: '(' 'cons' ( exprBase )* ')'
+                    // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:96:9: '(' 'cons' ( exprBase )* ')'
                     {
                     char_literal58=(Token)match(input,48,FOLLOW_48_in_exprBase885); if (state.failed) return retval; 
                     if ( state.backtracking==0 ) stream_48.add(char_literal58);
@@ -1748,7 +1748,7 @@ public class WhileParser extends Parser {
                     string_literal59=(Token)match(input,49,FOLLOW_49_in_exprBase887); if (state.failed) return retval; 
                     if ( state.backtracking==0 ) stream_49.add(string_literal59);
 
-                    // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:96:20: ( exprBase )*
+                    // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:96:20: ( exprBase )*
                     loop11:
                     do {
                         int alt11=2;
@@ -1761,7 +1761,7 @@ public class WhileParser extends Parser {
 
                         switch (alt11) {
                     	case 1 :
-                    	    // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:0:0: exprBase
+                    	    // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:0:0: exprBase
                     	    {
                     	    pushFollow(FOLLOW_exprBase_in_exprBase889);
                     	    exprBase60=exprBase();
@@ -1797,12 +1797,12 @@ public class WhileParser extends Parser {
                     root_0 = (CommonTree)adaptor.nil();
                     // 97:9: -> ^( CONS ( exprBase )* )
                     {
-                        // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:97:12: ^( CONS ( exprBase )* )
+                        // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:97:12: ^( CONS ( exprBase )* )
                         {
                         CommonTree root_1 = (CommonTree)adaptor.nil();
                         root_1 = (CommonTree)adaptor.becomeRoot((CommonTree)adaptor.create(CONS, "CONS"), root_1);
 
-                        // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:97:19: ( exprBase )*
+                        // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:97:19: ( exprBase )*
                         while ( stream_exprBase.hasNext() ) {
                             adaptor.addChild(root_1, stream_exprBase.nextTree());
 
@@ -1818,7 +1818,7 @@ public class WhileParser extends Parser {
                     }
                     break;
                 case 5 :
-                    // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:98:9: '(' 'list' ( exprBase )* ')'
+                    // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:98:9: '(' 'list' ( exprBase )* ')'
                     {
                     char_literal62=(Token)match(input,48,FOLLOW_48_in_exprBase919); if (state.failed) return retval; 
                     if ( state.backtracking==0 ) stream_48.add(char_literal62);
@@ -1826,7 +1826,7 @@ public class WhileParser extends Parser {
                     string_literal63=(Token)match(input,51,FOLLOW_51_in_exprBase921); if (state.failed) return retval; 
                     if ( state.backtracking==0 ) stream_51.add(string_literal63);
 
-                    // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:98:20: ( exprBase )*
+                    // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:98:20: ( exprBase )*
                     loop12:
                     do {
                         int alt12=2;
@@ -1839,7 +1839,7 @@ public class WhileParser extends Parser {
 
                         switch (alt12) {
                     	case 1 :
-                    	    // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:0:0: exprBase
+                    	    // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:0:0: exprBase
                     	    {
                     	    pushFollow(FOLLOW_exprBase_in_exprBase923);
                     	    exprBase64=exprBase();
@@ -1875,12 +1875,12 @@ public class WhileParser extends Parser {
                     root_0 = (CommonTree)adaptor.nil();
                     // 99:9: -> ^( LIST ( exprBase )* )
                     {
-                        // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:99:12: ^( LIST ( exprBase )* )
+                        // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:99:12: ^( LIST ( exprBase )* )
                         {
                         CommonTree root_1 = (CommonTree)adaptor.nil();
                         root_1 = (CommonTree)adaptor.becomeRoot((CommonTree)adaptor.create(LIST, "LIST"), root_1);
 
-                        // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:99:19: ( exprBase )*
+                        // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:99:19: ( exprBase )*
                         while ( stream_exprBase.hasNext() ) {
                             adaptor.addChild(root_1, stream_exprBase.nextTree());
 
@@ -1896,7 +1896,7 @@ public class WhileParser extends Parser {
                     }
                     break;
                 case 6 :
-                    // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:100:9: '(' 'hd' exprBase ')'
+                    // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:100:9: '(' 'hd' exprBase ')'
                     {
                     char_literal66=(Token)match(input,48,FOLLOW_48_in_exprBase953); if (state.failed) return retval; 
                     if ( state.backtracking==0 ) stream_48.add(char_literal66);
@@ -1929,7 +1929,7 @@ public class WhileParser extends Parser {
                     root_0 = (CommonTree)adaptor.nil();
                     // 101:9: -> ^( HD exprBase )
                     {
-                        // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:101:12: ^( HD exprBase )
+                        // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:101:12: ^( HD exprBase )
                         {
                         CommonTree root_1 = (CommonTree)adaptor.nil();
                         root_1 = (CommonTree)adaptor.becomeRoot((CommonTree)adaptor.create(HD, "HD"), root_1);
@@ -1945,7 +1945,7 @@ public class WhileParser extends Parser {
                     }
                     break;
                 case 7 :
-                    // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:102:9: '(' 'tl' exprBase ')'
+                    // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:102:9: '(' 'tl' exprBase ')'
                     {
                     char_literal70=(Token)match(input,48,FOLLOW_48_in_exprBase985); if (state.failed) return retval; 
                     if ( state.backtracking==0 ) stream_48.add(char_literal70);
@@ -1978,7 +1978,7 @@ public class WhileParser extends Parser {
                     root_0 = (CommonTree)adaptor.nil();
                     // 103:9: -> ^( TL exprBase )
                     {
-                        // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:103:12: ^( TL exprBase )
+                        // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:103:12: ^( TL exprBase )
                         {
                         CommonTree root_1 = (CommonTree)adaptor.nil();
                         root_1 = (CommonTree)adaptor.becomeRoot((CommonTree)adaptor.create(TL, "TL"), root_1);
@@ -1994,7 +1994,7 @@ public class WhileParser extends Parser {
                     }
                     break;
                 case 8 :
-                    // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:104:9: '(' SYMBOL ( exprBase )* ')'
+                    // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:104:9: '(' SYMBOL ( exprBase )* ')'
                     {
                     char_literal74=(Token)match(input,48,FOLLOW_48_in_exprBase1017); if (state.failed) return retval; 
                     if ( state.backtracking==0 ) stream_48.add(char_literal74);
@@ -2002,7 +2002,7 @@ public class WhileParser extends Parser {
                     SYMBOL75=(Token)match(input,SYMBOL,FOLLOW_SYMBOL_in_exprBase1019); if (state.failed) return retval; 
                     if ( state.backtracking==0 ) stream_SYMBOL.add(SYMBOL75);
 
-                    // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:104:20: ( exprBase )*
+                    // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:104:20: ( exprBase )*
                     loop13:
                     do {
                         int alt13=2;
@@ -2015,7 +2015,7 @@ public class WhileParser extends Parser {
 
                         switch (alt13) {
                     	case 1 :
-                    	    // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:0:0: exprBase
+                    	    // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:0:0: exprBase
                     	    {
                     	    pushFollow(FOLLOW_exprBase_in_exprBase1021);
                     	    exprBase76=exprBase();
@@ -2051,13 +2051,13 @@ public class WhileParser extends Parser {
                     root_0 = (CommonTree)adaptor.nil();
                     // 105:9: -> ^( CALL SYMBOL ( exprBase )* )
                     {
-                        // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:105:12: ^( CALL SYMBOL ( exprBase )* )
+                        // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:105:12: ^( CALL SYMBOL ( exprBase )* )
                         {
                         CommonTree root_1 = (CommonTree)adaptor.nil();
                         root_1 = (CommonTree)adaptor.becomeRoot((CommonTree)adaptor.create(CALL, "CALL"), root_1);
 
                         adaptor.addChild(root_1, stream_SYMBOL.nextNode());
-                        // C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\While.g:105:26: ( exprBase )*
+                        // C:\\Users\\Alexis\\OneDrive\\Cours\\INFO-2\\TLS\\Projet_TLC\\Frontend\\While.g:105:26: ( exprBase )*
                         while ( stream_exprBase.hasNext() ) {
                             adaptor.addChild(root_1, stream_exprBase.nextTree());
 
