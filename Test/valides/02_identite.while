@@ -1,0 +1,6 @@
+function main :
+read X
+%
+    Result := X
+%
+write Result
