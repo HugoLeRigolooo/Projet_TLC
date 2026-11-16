@@ -1,3 +1,5 @@
+
+
 public class runtime {
 
         public static class Node{
@@ -19,8 +21,14 @@ public class runtime {
         }
         }
     
-    public static boolean EstSymbole(Node n){
-        return !(n.val==null);
+    public static boolean estSymbole(Node n) {
+        return !estNil(n) && n.val != null && n.nodeLeft == null && n.nodeRight == null;
+    }
+
+    //nil représenté par une référence null 
+
+    public static boolean estNil(Node n){
+        return n == null;
     }
 
     public static Node symbole(String val) {
@@ -28,14 +36,14 @@ public class runtime {
     }
 
     public static Node hd(Node n) {
-        if (n == null || EstSymbole(n)){
+        if (n == null || estSymbole(n)){
             return null;
         }
         return n.nodeLeft;
     }
 
     public static Node tl(Node n) {
-        if (n == null || EstSymbole(n)){
+        if (n == null || estSymbole(n)){
             return null;}
         return n.nodeRight;
         }
