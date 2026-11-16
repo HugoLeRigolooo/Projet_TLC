@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="Frontend" excluding="output/"/>
+	<classpathentry kind="src" path="Backend" excluding="Runtime/"/>
+	<classpathentry kind="src" path="Backend/Runtime"/>
+	<classpathentry kind="lib" path="Frontend/antlr-3.5.3-complete.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

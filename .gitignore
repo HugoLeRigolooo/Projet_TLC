@@ -4,5 +4,5 @@
 # PDF
 *.pdf
 
-# Package Files #
-*.jar
+# ANTLR generated files
+Frontend/output/

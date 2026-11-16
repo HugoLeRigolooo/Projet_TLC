@@ -1,19 +1,14 @@
-import java.io.*;
 import org.antlr.runtime.*;
-import org.antlr.runtime.debug.DebugEventSocketProxy;
 
 
 public class __Test__ {
 
     public static void main(String args[]) throws Exception {
-        WhileLexer lex = new WhileLexer(new ANTLRFileStream("C:\\Users\\hugor\\OneDrive\\Bureau\\Cours\\ESIR2\\S7\\TLC\\Projet_TLC\\Frontend\\output\\__Test___input.txt", "UTF8"));
+        String inputFile = args.length > 0 ? args[0] : "Frontend/__Test___input.txt";
+        WhileLexer lex = new WhileLexer(new ANTLRFileStream(inputFile, "UTF-8"));
         CommonTokenStream tokens = new CommonTokenStream(lex);
 
-        WhileParser g = new WhileParser(tokens, 49100, null);
-        try {
-            g.program();
-        } catch (RecognitionException e) {
-            e.printStackTrace();
-        }
+        WhileParser parser = new WhileParser(tokens);
+        parser.program();
     }
 }
