@@ -31,6 +31,11 @@ public class Main {
             System.out.println("AST genere avec succes :");
             System.out.println(ast.toStringTree());
 
+
+            TableSymboles t1 = new TableSymboles(ast,lexer,parser);
+            t1.parcourtProfondeurArbre(t1.ast);
+            System.out.println(t1.parcourtPasse1(ast));
+
         } catch (Exception e) {
             System.err.println("Erreur lors de l'analyse du fichier : " + e.getMessage());
             e.printStackTrace();
