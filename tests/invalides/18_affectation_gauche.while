@@ -1,0 +1,6 @@
+function main :
+read X
+%
+    (hd X) := nil
+%
+write X

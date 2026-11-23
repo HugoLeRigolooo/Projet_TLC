@@ -1,0 +1,14 @@
+function f :
+read A
+%
+    R1 := A
+    R2 := nil
+%
+write R1, R2
+
+function main :
+read X
+%
+    Y := (f X)
+%
+write Y

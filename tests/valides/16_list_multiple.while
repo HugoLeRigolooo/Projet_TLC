@@ -1,0 +1,6 @@
+function main :
+read Elem1, Elem2
+%
+    Result := (list Elem1 Elem2)
+%
+write Result

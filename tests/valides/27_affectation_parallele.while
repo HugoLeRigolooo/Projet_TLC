@@ -1,0 +1,6 @@
+function main :
+read Op1, Op2
+%
+    Op1, Op2 := Op2, Op1
+%
+write Op1, Op2

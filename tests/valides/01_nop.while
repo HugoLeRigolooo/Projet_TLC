@@ -3,4 +3,4 @@ read
 %
     nop
 %
-write nil
+write Result

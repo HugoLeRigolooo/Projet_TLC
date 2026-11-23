@@ -1,0 +1,10 @@
+function main :
+read
+%
+    A := (hd nil);
+    B := (tl nil);
+    C := (hd symb);
+    D := (tl symb);
+    Result := (cons A (cons B (cons C (cons D (cons NonInit nil)))))
+%
+write Result

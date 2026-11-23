@@ -1,0 +1,8 @@
+function main :
+read X
+%
+    while X
+        X := (tl X)
+    od
+%
+write X

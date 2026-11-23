@@ -1,0 +1,10 @@
+function main :
+read Op1
+%
+    Result := nil;
+    while Op1 do
+        Result := (cons nil nil);
+        Op1 := nil
+    od
+%
+write Result

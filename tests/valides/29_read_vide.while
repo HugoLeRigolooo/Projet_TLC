@@ -1,0 +1,13 @@
+function f_vide :
+read
+%
+    Result := (cons nil nil)
+%
+write Result
+
+function main :
+read Op1
+%
+    Res := (f_vide)
+%
+write Res

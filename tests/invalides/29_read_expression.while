@@ -1,0 +1,6 @@
+function main :
+read nil
+%
+    X := nil
+%
+write X

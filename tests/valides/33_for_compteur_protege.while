@@ -1,0 +1,10 @@
+function main :
+read N
+%
+    Result := nil;
+    for N do
+        N := nil;
+        Result := (cons nil Result)
+    od
+%
+write Result

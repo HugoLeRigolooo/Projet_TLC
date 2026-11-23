@@ -1,0 +1,13 @@
+function maFonction :
+read X, Y
+%
+    Res := (cons X Y)
+%
+write Res
+
+function main :
+read A, B
+%
+    Result := (maFonction A B)
+%
+write Result

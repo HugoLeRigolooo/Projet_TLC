@@ -1,0 +1,8 @@
+function main :
+read Op1
+%
+    if Op1 then
+        Result := (cons nil nil)
+    fi
+%
+write Result

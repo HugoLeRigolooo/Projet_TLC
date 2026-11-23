@@ -1,0 +1,8 @@
+function main :
+read X
+%
+    fore X do
+        nop
+    od
+%
+write X

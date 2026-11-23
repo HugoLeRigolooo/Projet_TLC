@@ -1,0 +1,13 @@
+function f :
+read A
+%
+    B := A
+%
+write B
+
+function main :
+read X
+%
+    Y := (f X X)
+%
+write Y

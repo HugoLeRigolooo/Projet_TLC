@@ -1,0 +1,7 @@
+function main :
+read X
+%
+    while X do
+    od
+%
+write X

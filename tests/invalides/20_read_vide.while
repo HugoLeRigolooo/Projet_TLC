@@ -1,0 +1,6 @@
+function main :
+red X
+%
+    X := nil
+%
+write X

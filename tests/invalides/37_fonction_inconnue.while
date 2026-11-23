@@ -1,0 +1,6 @@
+function main :
+read X
+%
+    Result := (fonction_inconnue X)
+%
+write Result

@@ -1,0 +1,7 @@
+function main :
+read X
+%
+    if X then
+        Y := nil
+%
+write Y

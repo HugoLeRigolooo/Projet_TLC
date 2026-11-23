@@ -1,0 +1,6 @@
+function main :
+read Param
+%
+    Result := (tl Param)
+%
+write Result

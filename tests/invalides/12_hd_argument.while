@@ -1,0 +1,6 @@
+function main :
+read X
+%
+    Y := (hd)
+%
+write Y

@@ -1,0 +1,13 @@
+function somme_trois :
+read A, B, C
+%
+    Res := (cons A (cons B (cons C nil)))
+%
+write Res
+
+function main :
+read Op1, Op2, Op3
+%
+    Result := (somme_trois Op1 Op2 Op3)
+%
+write Result

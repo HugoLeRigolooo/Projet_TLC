@@ -1,0 +1,20 @@
+function f :
+read A
+%
+    B := A
+%
+write B
+
+function f :
+read C
+%
+    D := nil
+%
+write D
+
+function main :
+read X
+%
+    Y := (f X)
+%
+write Y

@@ -1,0 +1,14 @@
+function f :
+read X, Y
+%
+    Res1 := (cons X nil);
+    Res2 := (cons Y nil)
+%
+write Res1, Res2
+
+function main :
+read Op1, Op2
+%
+    Result1, Result2 := (f Op1 Op2)
+%
+write Result1, Result2

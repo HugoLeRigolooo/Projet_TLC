@@ -1,0 +1,9 @@
+function main :
+read Op1
+%
+    Result := nil;
+    foreach X in Op1 do
+        Result := (cons X Result)
+    od
+%
+write Result
