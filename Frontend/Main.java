@@ -1,3 +1,6 @@
+import java.nio.file.Files;
+import java.nio.file.Paths;
+
 import org.antlr.runtime.ANTLRFileStream;
 import org.antlr.runtime.CommonTokenStream;
 import org.antlr.runtime.tree.CommonTree;
@@ -10,6 +13,10 @@ public class Main {
         }
 
         try {
+            String contenuSource = new String(Files.readAllBytes(Paths.get(args[0])), "UTF-8");
+            System.out.println("Fichier de test : ");
+            System.out.println(contenuSource);
+            
             // lecture du fichier .while
             ANTLRFileStream input = new ANTLRFileStream(args[0], "UTF-8");
 
@@ -28,9 +35,17 @@ public class Main {
 
             // affichage de la racine de l'AST
             CommonTree ast = (CommonTree) result.getTree();
+
+            CodeGenerator3A gen3A = new CodeGenerator3A();
+            java.util.List<Instruction3A> code3A = gen3A.generer(ast);
+
             System.out.println("AST genere avec succes :");
             System.out.println(ast.toStringTree());
 
+            System.out.println("\nCode 3 adresses genere :");
+            for (Instruction3A inst : code3A) {
+                System.out.println(inst);
+            }
 
             TableSymboles t1 = new TableSymboles(ast,lexer,parser);
             t1.parcourtProfondeurArbre(t1.ast);
@@ -42,3 +57,4 @@ public class Main {
         }
     }
 }
+
